@@ -1,0 +1,78 @@
+:root {
+    --bg-color--primary: #4E342E;
+    --bg-color--secondary: #f9f4f7;
+    --color-font--primary: #000;
+
+    --bg-color--manha: #ef992e;
+    --bg-color--tarde: #925b3b;
+    --bg-color--noite: #003d60;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    font-size: 3rem;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-color--primary);
+    color: var(--color-font--primary);
+}
+section {
+    width: 50%;
+    height: auto;
+    background-color: var(--bg-color--secondary);
+    color: var(--color-font--primary);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    font-size: 1.6rem;
+}
+
+.gen-area {
+    flex: 1;
+    display: flex;
+    background-color: red;
+    justify-content: space-around;
+}
+
+#msg {
+    font: bolder 2rem Arial;
+    text-align: center;
+}
+#msg p {
+    margin: 10px;
+}
+
+#foto-dia {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#foto-dia img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
